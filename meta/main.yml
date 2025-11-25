@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: laravel_nginx_mariadb
-  author: Mina Amin
+  author: mina-amin
   description: Install and configure Laravel application with Nginx, PHP, and MariaDB.
   company: ""
   
