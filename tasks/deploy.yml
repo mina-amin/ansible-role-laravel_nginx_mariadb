@@ -51,7 +51,8 @@
   command: composer install --no-interaction --prefer-dist
   args:
     chdir: "{{ app_dir }}"
-
+  ignore_errors: yes
+      
 - name: Update .env
   lineinfile:
     path: "{{ app_dir }}/.env"
